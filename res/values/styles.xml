@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomActionBarTheme"
+           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+    <style name="ListContact">
+        <item name="android:background">@color/bg_list</item>
+    </style>
+
+
+    <style name="TextViewName">
+        <item name="android:textSize">@dimen/text_size_name</item>
+        <item name="android:textColor">@color/bg_name</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewNumber">
+        <item name="android:textSize">@dimen/text_size_number</item>
+        <item name="android:textColor">@color/bg_number</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+        <style name="Dialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        </style>
+
+        <style name="DialogAnimation">
+            <item name="android:windowEnterAnimation">@anim/anim_dialog</item>
+            <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+        </style>
+
+
+</resources>

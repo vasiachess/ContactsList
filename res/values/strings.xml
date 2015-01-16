@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsList</string>
+    <string name="sort">sort</string>
+    <string name="contcts">Contacts</string>
+    <string name="browser">Browser</string>
+    <string name="name">Name </string>
+    <string name="number">Tel </string>
+    <string name="email">Email </string>
+
+
+</resources>
